@@ -147,6 +147,7 @@ const colors = [
   "#FFFFF0",
   "#FFFFFF",
 ];
+
 const btn = document.getElementById("colors_btn");
 const color = document.querySelector(".color");
 
