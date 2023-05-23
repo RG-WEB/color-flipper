@@ -114,6 +114,76 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  /* cache l'icône */
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-center {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-header {
+    padding: 0;
+  }
+
+  .nav-links {
+    height: auto;
+    display: flex;
+    gap: 3rem;
+  }
+
+  .nav-link {
+    padding: 0;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    padding: 0;
+    background: transparent;
+    color: rgb(24, 118, 161);
+  }
+}
+
+@media screen and (min-width: 320px) {
+  /* cache l'icône */
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-center {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav-header {
+    padding: 0;
+  }
+
+  .nav-links {
+    height: auto;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .nav-link {
+    padding: 0;
+    padding: 0;
+  }
+
+  .nav-link:hover {
+    padding: 0;
+    background: transparent;
+    color: rgb(24, 118, 161);
+  }
+}
+
 /* nav-end */
 
 /* section colors */
